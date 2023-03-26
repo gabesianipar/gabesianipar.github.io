@@ -41,8 +41,8 @@ function Bio() {
 			<p>
 				I'm an aspiring technologist. I'm interested in learning and growing as
 				a contributor in lots of fields including software development,
-				entrepreneurship, value investing, consulting, entertainment, AI/ML, and most
-				importantly... Tetris.
+				entrepreneurship, value investing, consulting, entertainment, AI/ML, and
+				most importantly... Tetris.
 			</p>
 		</div>
 	);
@@ -114,19 +114,18 @@ function Pictures() {
 				</div>
 				<p>
 					This past Febuary, HackSC gave me the wonderful opportunity to
-					moderate and host a vertical panel within the hackathon. The panel
-					was in a talk show format of sorts and had a few notable
-					industry leaders from companies such as GoogleX, Yahoo and Duolingo. I
-					had such a fun time conversating with them as I was able to pick their
-					brains and learn from their way of thinking. The organization gave me
-					the room to ask them questions specific to their fields like "what led
-					you to decide to start with ocean farming first?" to Neil Dave of
-					Tidal and "what advice do you have for young marketers today?" to
-					Cammie Dunaway of Duolingo. Their answers were heard by not only me,
-					but also a very interested live audience filled that consisted of
-					aspiring college students – the young adults who hold the future of
-					technology. It was a great learning experience for me and all-around
-					surreal.
+					moderate and host a vertical panel within the hackathon. The panel was
+					in a talk show format of sorts and had a few notable industry leaders
+					from companies such as GoogleX, Yahoo and Duolingo. I had such a fun
+					time conversating with them as I was able to pick their brains and
+					learn from their way of thinking. The organization gave me the room to
+					ask them questions specific to their fields like "what led you to
+					decide to start with ocean farming first?" to Neil Dave of Tidal and
+					"what advice do you have for young marketers today?" to Cammie Dunaway
+					of Duolingo. Their answers were heard by not only me, but also a very
+					interested live audience filled that consisted of aspiring college
+					students – the young adults who hold the future of technology. It was
+					a great learning experience for me and all-around surreal.
 				</p>
 			</div>
 
@@ -148,10 +147,10 @@ function Pictures() {
 					of the production team that created the script and produced the
 					opening ceremony, where we continuously improved the production
 					elements over the span of 2 weeks to make it the most enjoyable
-					experience possible for our hacker audience. The experience of hosting the
-					opening ceremony in Bovard Auditorium, an iconic place that had George
-					Carlin's first standup performance, holds a special place in my heart
-					forever.
+					experience possible for our hacker audience. The experience of hosting
+					the opening ceremony in Bovard Auditorium, an iconic place that had
+					George Carlin's first standup performance, holds a special place in my
+					heart forever.
 				</p>
 			</div>
 
@@ -165,20 +164,20 @@ function Pictures() {
 				<p>
 					Another thing that holds a special place in my heart is starting
 					things. I love being in an environment of hopeful uncertainty and
-					within that space, making decisions that have such great, and often times in the
-					moment unimaginable trajectories. Building something from the ground
-					up is as raw as the process gets and I do not hesitate to take any
-					opportunity to start the foundation for something new. When Debra
-					explained her vision for Avenues Consulting to me, I was immediately
-					inspired and committed to see this enterprise go the whole way. The
-					consulting club is still in its very early stages, but our team's
-					common mission of sustainable and tangible impact is very much bright
-					and alive. In the founding team full of some of the most enthusiastic
-					and lively people on campus, I am the Director of Affairs. I
-					am responsible for both internal organizational culture and 
-					external organizational relations. The road is long for this group, but it is also
-					very exciting one we are ready to do what it takes to help bring to the
-					world positive change.
+					within that space, making decisions that have such great, and often
+					times in the moment unimaginable trajectories. Building something from
+					the ground up is as raw as the process gets and I do not hesitate to
+					take any opportunity to start the foundation for something new. When
+					Debra explained her vision for Avenues Consulting to me, I was
+					immediately inspired and committed to see this enterprise go the whole
+					way. The consulting club is still in its very early stages, but our
+					team's common mission of sustainable and tangible impact is very much
+					bright and alive. In the founding team full of some of the most
+					enthusiastic and lively people on campus, I am the Director of
+					Affairs. I am responsible for both internal organizational culture and
+					external organizational relations. The road is long for this group,
+					but it is also very exciting one we are ready to do what it takes to
+					help bring to the world positive change.
 				</p>
 			</div>
 		</div>
@@ -194,27 +193,28 @@ function Projects() {
 					<h3>My 3D version of Tetris</h3>
 					<img src="./img/3d-tetris.png" width="50%"></img>
 					<p>
-						This project is in progress and is on track to be released open-source on my
-						GitHub by May 2023.
+						This project is in progress and is on track to be released
+						open-source on my GitHub by May 2023.
 					</p>
 				</div>
 				<div class="column">
 					<h3>Tic Tac Toe with AI</h3>
 					<img src="./img/ttt.png" width="50%"></img>
 					<p>
-						One of the required projects in the class "Introduction to Programming" offered
-						by USC Computer Science. I programmed an n*n Tic Tac Toe game in C++ with AI implementation, 
-						and was able to learn about the MiniMax algorithm.
+						One of the required projects in the class "Introduction to
+						Programming" offered by USC Computer Science. I programmed an n*n
+						Tic Tac Toe game in C++ with AI implementation, and was able to
+						learn about the MiniMax algorithm.
 					</p>
 				</div>
 				<div class="column">
 					<h3>YourSpace</h3>
 					<img src="./img/yourspace.webp" width="50%"></img>
 					<p>
-						A productivity app I built with a team that was launched on the Google Play Store in 2021. 
-						We built this mobile app over the course of a couple of months
-						using human-centered design then conducted A/B testing with a couple of
-						high school friends.
+						A productivity app I built with a team that was launched on the
+						Google Play Store in 2021. We built this mobile app over the course
+						of a couple of months using human-centered design then conducted A/B
+						testing with a couple of high school friends.
 					</p>
 				</div>
 			</div>
@@ -235,15 +235,16 @@ function Skills() {
 						I learned these 3 languages and it started my exciting journey in
 						full-stack — a journey that I'm still in for the long run.
 					</p>
-				</div> 
+				</div>
 				<div class="column">
 					<h3>C++</h3>
 					<img src="./img/C++.png" width="50%"></img>
 					<p>
 						The primary language used in my USC Computer Science classes. I
-						found learning it to be very helpful in understanding what programming truly is.
-						Learning the language really helps programmers see what's under the hood in
-						terms of how the high-level language interacts with the machine itself.
+						found learning it to be very helpful in understanding what
+						programming truly is. Learning the language really helps programmers
+						see what's under the hood in terms of how the high-level language
+						interacts with the machine itself.
 					</p>
 				</div>
 				<div class="column">
@@ -251,10 +252,10 @@ function Skills() {
 					<img src="./img/python.png" width="50%"></img>
 					<p>
 						I learned Python as part of my Computer Science curriculum in high
-						school where we learned the basics of programming. However, there's deeper 
-						and more interesting areas that Python
-						really excels in. Currently, I'm in the progress of learning the AI and
-						mathematical aspect of this language.
+						school where we learned the basics of programming. However, there's
+						deeper and more interesting areas that Python really excels in.
+						Currently, I'm in the progress of learning the AI and mathematical
+						aspect of this language.
 					</p>
 				</div>
 			</div>
@@ -272,9 +273,9 @@ function Skills() {
 					<img src="./img/flutter.png" width="50%"></img>
 					<p>
 						For YourSpace, I used this software development kit to build
-						YourSpace and make it conveniently compatible for both iOS and Android systems. Unfortunately
-						however, we were never able to launch it to the iOS app store because of
-						financial constraints.
+						YourSpace and make it conveniently compatible for both iOS and
+						Android systems. Unfortunately however, we were never able to launch
+						it to the iOS app store because of financial constraints.
 					</p>
 				</div>
 				<div class="column">
@@ -302,7 +303,7 @@ function Passions() {
 						href="https://en.wikipedia.org/wiki/Sacramento_Kings"
 						target="_blank"
 					>
-						<img src="./img/basketball.avif" width="80%"></img>
+						<img src="./img/deaaron-fox.png" width="80%"></img>
 					</a>
 				</div>
 				<div class="column">
@@ -339,8 +340,10 @@ function Passions() {
 				</div>
 				<div class="column">
 					<h3>Daft Punk</h3>
-					<a href="https://en.wikipedia.org/wiki/Random_Access_Memories"
-					target="_blank">
+					<a
+						href="https://en.wikipedia.org/wiki/Random_Access_Memories"
+						target="_blank"
+					>
 						<img src="./img/daft_punk.webp" width="80%"></img>
 					</a>
 				</div>
