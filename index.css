@@ -1,0 +1,315 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	max-height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #181128;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+	color: white;
+	text-align: center;
+}
+
+footer {
+
+	padding-bottom: 15px;
+}
+
+#home h2 {
+	font-weight: 200;
+}
+
+#projects,
+#skills,
+#passions,
+#socials {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#projects,
+#skills,
+#passions {
+	background-color: rgb(90, 90, 153);
+	padding: 50px 0px 50px 0px;
+	margin: 100px 40px 100px 40px;
+	border-radius: 20px;
+	filter: drop-shadow(0px 0px 10px rgb(90, 90, 153));
+}
+#socials {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 60px;
+	filter: drop-shadow(0px 0px 2px #ffffff);
+}
+
+img {
+	border-radius: 10px;
+	transition: 0.3s;
+	filter: drop-shadow(0px 0px 3px #ffffff);
+}
+
+.images {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #272f48;
+	filter: drop-shadow(0px 0px 10px #272f48);
+	border-radius: 20px;
+}
+
+
+.images img {
+	border-radius: 25px;
+	margin: 20px auto;
+	filter: drop-shadow(0px 0px 3px #ffffffd4);
+	border-width: 2px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.images p {
+	font-size: 22px;
+	font-weight: 300;
+	filter: drop-shadow(0px 0px 1px #ffffff);
+	letter-spacing: 2px;
+}
+
+img:hover {
+	opacity: 80%;
+}
+
+/* Style the header */
+.header {
+	color: white;
+	padding: 10px 10px;
+	margin: 75px 0px 0px 0px;
+	font-size: 18px;
+}
+
+.header h1 {
+	filter: drop-shadow(0px 0px 2px #ffffff);
+}
+.status {
+	background-color: rgb(61, 61, 129);
+	filter: drop-shadow(0px 0px 4px rgb(61, 61, 129));
+	border-radius: 30px;
+	padding: 20px 10px;
+	max-width: 90%;
+	margin: auto;
+}
+
+.bio {
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	font-size: 20px;
+	width: 50%;
+	margin: auto;
+}
+
+.bio-data {
+	color: white;
+	padding: 5px;
+	font-weight: 300;
+	max-width: 400px;
+	padding-bottom: 10px;
+	margin: auto;
+}
+
+.bio-data > ul {
+	padding-bottom: 40px;
+	list-style-type: square;
+}
+
+/* Container for flexboxes */
+.row {
+	display: -webkit-flex;
+	display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	max-width: 400px;
+	margin: 0px auto;
+	text-align: center;
+	
+}
+
+.column p {
+	font-size: 15px;
+	text-align: justify;
+	margin: 20px 20px 0px 20px;
+}
+
+.column h3 {
+	font-size: 18px;
+	filter: drop-shadow(0px 0px 5px #ffffff);
+}
+
+/* Style the footer */
+.footer {
+	background-color: #f1f1f1;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	display: flex;
+	position: fixed;
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	top: 10px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	justify-content: space-between;
+	filter: drop-shadow(0px 0px 4px #ffffff);
+	z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	display: flex;
+
+	color: #000000;
+	text-align: center;
+
+	padding: 20px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #b7b9df;
+	border-radius: 10px;
+	padding: 20px;
+	color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #8162bf;
+
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+}
+
+.desc {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 60px;
+}
+
+.desc p {
+	max-width: 600px;
+	text-align: justify;
+	filter: drop-shadow(0px 0px 0px #ffffff);
+	font-weight: 100;
+	font-size: 18px;
+	margin: 20px 70px 20px 0px;
+	overflow: hidden;
+}
+
+
+
+.wrapper {
+	width: auto;
+	text-align: center;
+}
+
+.wrapper img {
+	
+	min-width: 70%;
+}
+
+
+.down-arrow {
+  position: absolute;
+  top: calc(89vh);
+  left: calc(10%);
+  width: 0;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 2px;
+  color: white;
+  filter: drop-shadow(0px 0px 4px #ffffff);
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.down-arrow {
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(252, 252, 252); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 20px auto; /* Gives that scrolling effect as the typing happens */
+  max-width: 420px;
+  
+  letter-spacing: .25em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, jump-end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 40% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+
