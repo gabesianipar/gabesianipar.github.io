@@ -64,7 +64,7 @@ function BioData() {
 					<li>Born and raised in Jakarta, Indonesia.</li>
 					<li>
 						Take a look at my{' '}
-						<a href="https://gabriel-sianipar.tiiny.site/" target="_blank">
+						<a href="https://gabe-sianipar.tiiny.site/" target="_blank">
 							resume
 						</a>
 					</li>
